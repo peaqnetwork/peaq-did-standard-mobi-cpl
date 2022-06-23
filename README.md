@@ -2,6 +2,7 @@
 Peaq DID standard for MOBI compliance 
 
 # json of Peaq DID standard for MOBI compliance 
+```json
 {
   "id": "did:peaq:5HRNr4pXH7PYKEmeW1jzJVxepXyg8w2Q3YpgRNHpH8foNr5i",
   "verificationMethod": [
@@ -43,3 +44,4 @@ Peaq DID standard for MOBI compliance
     }
   ]
 }
+```
