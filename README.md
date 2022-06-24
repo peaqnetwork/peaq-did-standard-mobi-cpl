@@ -1,6 +1,14 @@
 # peaq-did-standard-mobi-cpl
 Peaq DID standard for MOBI compliance 
 
+## Introduction
+The peaq VID standard supports all types of vehicles and enables them to discover each other, carry out transactions, verify claims, preserve privacy and  remain sovereign. The standard aims to optimize any web3 use case in the vehicle mobility sector. The standard is compliant with the MOBI VID standard which is supported by diverse industry leaders with the goal to provide a standard interfaces for discovery which allows two participants to successfully engage in a transaction.
+
+## Status of the document
+This document is currently in draft stage and is the first iteration of the peaq VID which provisions means to enable successful on-boarding and commercial operations related to vehicles and vehicle charging stations.
+This is a foundation draft and will be refined to accommodate additional use cases in forthcoming iteractions to make this DID standard more generic and robust by taking into account the learnt lessons.
+In coming iterations to this document, references to charging stations will be generalized to reflect machines. 
+
 # json of Peaq DID standard for MOBI compliance 
 ```json
 {
