@@ -66,6 +66,10 @@ In coming iterations to this document, references to charging stations will be g
         "TrimType": "331"
       }
     }
+  ],
+  "authentications": [
+    "a8c581471e4bc5ab6e7f7ca87781d350d337645917d2fce173009ca3e9dab98b", 
+    "dc2f6b696de92807498cb018eab92f98addc137fc8aab0ef92db751747f8e33d"
   ]
 }
 ```
