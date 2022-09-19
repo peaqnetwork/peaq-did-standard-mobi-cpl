@@ -28,7 +28,12 @@ In coming iterations to this document, references to charging stations will be g
   },
   "service": [
     {
-      "id": "5HpG9w8EBLe5XCrbczpwq5TSXvedjrBGCwqxK1iQ7qUsSWFc", 
+      "id": "5HRNr4pXH7PYKEmeW1jzJVxepXyg8w2Q3YpgRNHpH8foNr5i", 
+      "type": "payment", 
+      "serviceEndpoint": "5HRNr4pXH7PYKEmeW1jzJVxepXyg8w2Q3YpgRNHpH8foNr5i", 
+    },
+    {
+      "id": "5HRNr4pXH7PYKEmeW1jzJVxepXyg8w2Q3YpgRNHpH8foNr5i", 
       "type": "p2p", 
       "serviceEndpoint": "/ip4/127.0.0.1/tcp/10333/p2p/12D3KooWCazx4ZLTdrA1yeTTmCy5sGW32SFejztJTGdSZwnGf5gh", 
     }, 
