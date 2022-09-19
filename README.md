@@ -12,28 +12,34 @@ In coming iterations to this document, references to charging stations will be g
 # json of Peaq DID standard for MOBI compliance 
 ```json
 {
-  "id": "did:peaq:5HRNr4pXH7PYKEmeW1jzJVxepXyg8w2Q3YpgRNHpH8foNr5i",
+  "id": "did:peaq:5H3QUhRvdgzNGYzvzgQtKyTyvGv8Vz6SwQq6v7aGWZiGJWpf",
   "verificationMethod": [
     {
-      "id": "#pk1",
+      "id": "a8c581471e4bc5ab6e7f7ca87781d350d337645917d2fce173009ca3e9dab98b",
       "type": "Ed25519VerificationKey2020",
-      "controller": "did:peaq:5HRNr4pXH7PYKEmeW1jzJVxepXyg8w2Q3YpgRNHpH8foNr5i",
-      "publicKeyMultibase": "z5HRNr4pXH7PYKEmeW1jzJVxepXyg8w2Q3YpgRNHpH8foNr5i"
+      "controller": "did:peaq:5H3QUhRvdgzNGYzvzgQtKyTyvGv8Vz6SwQq6v7aGWZiGJWpf",
+      "publicKeyMultibase": "5FszaBvMn8dSNvmPY3zxT4bHdKpZaccTKwsYSBLwT5C6z8Tf"
+    },
+    {
+      "id": "dc2f6b696de92807498cb018eab92f98addc137fc8aab0ef92db751747f8e33d", 
+      "type": "Sr25519VerificationKey2020", 
+      "controller": "did:peaq:5H3QUhRvdgzNGYzvzgQtKyTyvGv8Vz6SwQq6v7aGWZiGJWpf", 
+      "publicKeyMultibase": "5H3QUhRvdgzNGYzvzgQtKyTyvGv8Vz6SwQq6v7aGWZiGJWpf", 
     }
   ],
   "signature": {
-    "type": "Ed25519VerificationKey2020",
+    "type": "Sr25519VerificationKey2020",
     "issuer": "<did address of Peaq>",
     "hash": "<signature>"
   },
   "service": [
     {
-      "id": "5HRNr4pXH7PYKEmeW1jzJVxepXyg8w2Q3YpgRNHpH8foNr5i", 
+      "id": "5H3QUhRvdgzNGYzvzgQtKyTyvGv8Vz6SwQq6v7aGWZiGJWpf", 
       "type": "payment", 
-      "serviceEndpoint": "5HRNr4pXH7PYKEmeW1jzJVxepXyg8w2Q3YpgRNHpH8foNr5i", 
+      "serviceEndpoint": "5H3QUhRvdgzNGYzvzgQtKyTyvGv8Vz6SwQq6v7aGWZiGJWpf", 
     },
     {
-      "id": "5HRNr4pXH7PYKEmeW1jzJVxepXyg8w2Q3YpgRNHpH8foNr5i", 
+      "id": "5H3QUhRvdgzNGYzvzgQtKyTyvGv8Vz6SwQq6v7aGWZiGJWpf", 
       "type": "p2p", 
       "serviceEndpoint": "/ip4/127.0.0.1/tcp/10333/p2p/12D3KooWCazx4ZLTdrA1yeTTmCy5sGW32SFejztJTGdSZwnGf5gh", 
     }, 
